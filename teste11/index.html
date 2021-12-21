@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="shortcut icon" href="Martin-Berube-Square-Animal-Cat.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagempequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemmedia.png" type="image/png">
+        <img src="imagens/imagemgrande.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/happy-mistake.mp3"controls autoplay></audio>
+    <!--Compatível com MP3, OGG e WAV-->
+    <audio preload="metadata" autoplay loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+        <source src="midia/happy-mistake.ogg" type="audio/ogg">
+        <source src="midia/happy-mistake.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir o arquivo de áudio.</p>
+        <a href="midia/happy-mistake.mp3">Clique aqui para baixar o arquivo no formato MP3.</a>
+    </audio> 
+</body>
+</html>
