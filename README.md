@@ -1,2 +1,2 @@
 # html-css
- exercícios
+ exercícios de HTML5 e CSS3
