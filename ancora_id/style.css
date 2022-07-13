@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +23,7 @@ p {
 }
 
 a {
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-decoration: none;
     padding: 10px;
     font-weight: bold;
@@ -48,4 +49,39 @@ a:visited{
 
 #three {
     background-color: violet;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 5rem;
+    text-indent: 10px;
+    text-shadow: 5px 3px 10px greenyellow;
+    list-style-image: none;
+    list-style-type: none;
+    height: 10rem;
+}
+
+ul {
+    text-transform: capitalize;
+    font-size: 0.5rem;
+    overflow-y: auto;
+    margin: 50px;
+    padding: 30px;
+    height: 690px;
+}
+
+li {
+    list-style-image: url(icons8-pilar-grego-30.png);
+    list-style-position: inside;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-size: 3rem;
+    padding: 40px 10px 10px 30px;
+    margin-bottom: 20px;
+}
+
+ul li.sticky {
+    position: sticky;
+    background-color: darkgray;
+    top: 0;
 }
